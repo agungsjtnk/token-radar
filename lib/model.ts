@@ -267,6 +267,7 @@ function chainProfile(chain: string): ChainProfile {
   if (chain === 'Sui') return { fee: 'a few cents of SUI in gas', wallet: 'a Sui wallet such as Slush', costRank: 1 };
   if (chain === 'Aptos') return { fee: 'a few cents of APT in gas', wallet: 'an Aptos wallet such as Petra', costRank: 1 };
   if (chain === 'Near') return { fee: 'a few cents of NEAR in gas', wallet: 'a NEAR wallet such as Meteor', costRank: 1 };
+  if (chain === 'Bittensor') return { fee: 'a few cents of TAO in fees', wallet: 'a Bittensor wallet such as Talisman', costRank: 1 };
   if (chain === 'Polygon' || chain === 'Avalanche' || chain === 'Fantom' || chain === 'Gnosis' || chain === 'Celo') {
     return { fee: 'a few cents of gas on ' + chain, wallet: 'an EVM wallet such as Rabby or MetaMask', costRank: 1 };
   }
